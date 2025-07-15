@@ -1,4 +1,4 @@
-# md_cat
+# Markdown Cat
 
 ## Background/Lore
 A simple CLI tool to concatenate all `.md` files in a directory tree into a single, user-specified markdown file. Perfect for compiling notes, documentation, or project readmes.
