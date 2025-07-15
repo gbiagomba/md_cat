@@ -1,0 +1,17 @@
+[package]
+name = "md_cat"
+version = "1.0.0"
+authors = ["Gilles Biagomba <gilles.infosec@gmail.com>"]
+edition = "2021"
+license = "GPL-3.0"
+description = "Concatenate markdown files from a directory into a single file"
+repository = "https://github.com/gbiagomba/md_cat"
+keywords = ["cli", "markdown", "file", "merge"]
+categories = ["command-line-utilities", "productivity"]
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+
+[[bin]]
+name = "md_cat"
+path = "src/main.rs"
